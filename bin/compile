@@ -58,6 +58,7 @@ PATH=$build_dir/vendor/node/bin:$PATH
 cd $build_dir
 
 # Update to latest npm
+status "Updating to latest npm"
 npm update -g npm
 
 # If node_modules directory is checked into source control then
